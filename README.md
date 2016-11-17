@@ -38,7 +38,8 @@ if (process.env.USE_RESTIFY) {
 // Initialize thinky-rest
 rest.initialize({
   app: app,
-  thinky: thinky
+  thinky: thinky,
+  isRestify: true
 });
 
 // Create a REST resource
